@@ -22,10 +22,11 @@
 `count = 1`                                                                                                                                                                            
 `guess_chances = 10`  
 
-So we need a random module to generate a random number. Variable n holds the one random number between 1 to 100. count variable for the count the number of guess user took, initially 1. guess_chances holds a number of chances code give to a user to guess the number.
+*So we need a random module to generate a random number. Variable n holds the one random number between 1 to 100. count variable for the count the number of guess user took, initially 1. guess_chances holds a number of chances code give to a user to guess the number.*
 
-Inside the while loop
-num = int(eval(input("Guess the number " )))
+* Inside the while loop
+
+`num = int(eval(input("Guess the number " )))
 if num > n:
   print('Your guess was too high: Guess a number lower than ', num)
 elif num < n:
@@ -33,7 +34,8 @@ elif num < n:
 else:
   print('YOU WIN!')
   print('You guessed the number in ' + str(count) + ' tries!')
-  break
+  break`
+  
 We ask the user to guess the number. And store guessed number in num variable. Then we do comparisons with the generated number n.
 In the first condition, if the guessed number is higher then the actual number than prints Your guess was too high: Guess a number lower than (your number). So, the user can get the idea, and next time he/she enters a lower number.
 
