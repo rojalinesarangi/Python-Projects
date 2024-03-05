@@ -38,7 +38,7 @@
   
 * We ask the user to guess the number. And store guessed number in num variable. Then we do comparisons with the generated number n.
   
-*In the first condition, if the guessed number is higher then the actual number than prints Your guess was too high: Guess a number lower than (your number). So, the user can get the idea, and next time he/she enters a lower number.*
+*In the first condition, if the guessed number is higher then the actual number than prints `Your guess was too high: Guess a number lower than (your number)`. So, the user can get the idea, and next time he/she enters a lower number.*
 
 * If the first condition is false, then flow goes for check second condition, if the guessed number is lower than actual number then prints `Your guess was too low: Guess a number higher than (your number)`. So, the user can get the idea, and next time he/she enters a higher number.
 
@@ -101,33 +101,33 @@
 `Hey, What's ur name?`                                                                                                                                                                               
 `shemmee`                                                                                                                                                         
 
-Lovely to meet you! shemmee
+`Lovely to meet you! shemmee`                                                                                                                                     
 
-Do You want to play guessing game with me? 
-yes
-Alright shemmee I am thinking about a number between 1 and 100 and you have 10 chances to guess it ;D      
+`Do You want to play guessing game with me?`                                                                                                                                               
+`yes`                                                                                                                                                                                
+`Alright shemmee I am thinking about a number between 1 and 100 and you have 10 chances to guess it ;D`                                                                                                 
 
-Lets get started
+`Lets get started`                                                                                                                                                                        
 
-Guess the number 
-37
-Your guess was too high: Guess a number lower than  37
-9 Guesses Left
+`Guess the number`                                                                                                                                                                       
+`37`                                                                                                                                                                                        
+Your guess was too high: Guess a number lower than  37`
+`9 Guesses Left`                                                                                                                                                
 
-Guess the number 
-20
-Your guess was too low: Guess a number higher than  20
-8 Guesses Left
+`Guess the number`                                                                                                                                                                         
+`20`                                                                                                                                                                                       
+`Your guess was too low: Guess a number higher than  20`                                                                                                                                          
+`8 Guesses Left`                                                                                                                                                                                  
 
-Guess the number 
-30
-Your guess was too high: Guess a number lower than  30
-7 Guesses Left
+`Guess the number`                                                                                                                                                                          
+`30`                                                                                                                                                                                             
+`Your guess was too high: Guess a number lower than  30`                                                                                                                           
+`7 Guesses Left`                                                                                                                                                                                    
 
-Guess the number 
-29
-YOU WIN!
-You guessed the number in 4 tries!
-GAME OVER
-Number is  29
-Thanks for playing :D
+`Guess the number`                                                                                                                                                                              
+`29`                                                                                                                                                                                             
+`YOU WIN!`                                                                                                                                                                                          
+`You guessed the number in 4 tries!`                                                                                                                                                                 
+`GAME OVER`                                                                                                                                                                                   
+`Number is  29`                                                                                                                                                                                    
+`Thanks for playing :D`                                                                                                                                        
