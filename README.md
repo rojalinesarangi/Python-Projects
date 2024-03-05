@@ -52,52 +52,54 @@
   
 *So, the above all conditions are written in a while loop. while loop gets terminated once the user wins the game or no. of guesses reaches the limit.*
 
-while 1 <= guess_chances:
+`while 1 <= guess_chances:`                                                                                                                                                                     
 
-Outside of the loop, code will print the Game Over message with the actual number.
+*Outside of the loop, code will print the Game Over message with the actual number.*
 
-print("GAME OVER")
-print("Number is ", n)
-The full code
-import random
+`print("GAME OVER")`                                                                                                                                                           
+`print("Number is ", n)`
 
-n = random.randint(1, 100)
-count = 1
-guess_chances = 10
-player_name = input("Hey, What's ur name? ")
+# The full code  
 
-print('Lovely to meet you! ' + player_name)
+`import random`
 
-answer = input('Do You want to play guessing game with me? ')
-if answer == 'no':
-  print('oh okay, maybe next time')
-elif answer == 'yes' :
-  print('Alright ' + player_name + ' I am thinking about a number between 1 and 100 and you have 10 chances to guess it ;D')
-  print('Lets get started')
-  while 1 <= guess_chances:
-    num = int(eval(input("Guess the number " )))
-    if num > n:
-      print('Your guess was too high: Guess a number lower than ', num)
-    elif num < n:
-      print('Your guess was too low: Guess a number higher than ', num)
-    else:
-      print('YOU WIN!')
-      print('You guessed the number in ' + str(count) + ' tries!')
-      break
-    guess_chances -= 1
-    print(guess_chances, 'Guesses Left')
-    count += 1
+`n = random.randint(1, 100)`                                                                                                                                                                        
+`count = 1`                                                                                                                                                                                     
+`guess_chances = 10`                                                                                                                                                                          
+`player_name = input("Hey, What's ur name? ")`                                                                                                                                                  
 
-  print("GAME OVER")
-  print("Number is ", n)
-  print('Thanks for playing :D')
+`print('Lovely to meet you! ' + player_name)`                                                                                                                                                    
 
-else:
-  print('sorry, I didnt get it')
-Output
-$ py number_guessing.py 
-Hey, What's ur name? 
-shemmee
+`answer = input('Do You want to play guessing game with me? ')`                                                                                                                    
+`if answer == 'no':`                                                                                                                                                                        
+  `print('oh okay, maybe next time')`                                                                                                                                                      
+`elif answer == 'yes' :`                                                                                                                                                                     
+  `print('Alright ' + player_name + ' I am thinking about a number between 1 and 100 and you have 10 chances to guess it ;D')`                                                                   
+  `print('Lets get started')`                                                                                                                                                        
+  `while 1 <= guess_chances:`                                                                                                                                                             
+    `num = int(eval(input("Guess the number " )))`                                                                                                                                              
+    `if num > n:`                                                                                                                                                                         
+      `print('Your guess was too high: Guess a number lower than ', num)`                                                                                                                     
+    `elif num < n:`                                                                                                                                                                          
+      `print('Your guess was too low: Guess a number higher than ', num)`                                                                                                                          
+    `else:`                                                                                                                                                                                           
+      `print('YOU WIN!')`                                                                                                                                                                      
+      `print('You guessed the number in ' + str(count) + ' tries!')`                                                                                                                            
+      `break`                                                                                                                                                                            
+    `guess_chances -= 1`
+    `print(guess_chances, 'Guesses Left')`                                                                                                                                                         
+    `count += 1`                                                                                                                                                                              
+
+  `print("GAME OVER")`                                                                                                                                                                            
+  `print("Number is ", n)`                                                                                                                                                                 
+  `print('Thanks for playing :D')`                                                                                                                                                                  
+
+`else:`                                                                                                                                                                    
+  `print('sorry, I didnt get it')`                                                                                                                                  
+`Output`                                                                                                                                                                               
+`$ py number_guessing.py`                                                                                                                                                                                                                                                                
+`Hey, What's ur name?`                                                                                                                                                                               
+`shemmee`                                                                                                                                                         
 
 Lovely to meet you! shemmee
 
