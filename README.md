@@ -99,9 +99,9 @@
 `Output`                                                                                                                                                                               
 `$ py number_guessing.py`                                                                                                                                                                                                                                                                
 `Hey, What's ur name?`                                                                                                                                                                               
-`shemmee`                                                                                                                                                         
+`tina`                                                                                                                                                         
 
-`Lovely to meet you! shemmee`                                                                                                                                     
+`Lovely to meet you! tina`                                                                                                                                     
 
 `Do You want to play guessing game with me?`                                                                                                                                               
 `yes`                                                                                                                                                                                
