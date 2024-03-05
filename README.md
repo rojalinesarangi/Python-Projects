@@ -26,31 +26,34 @@
 
 * Inside the while loop
 
-`num = int(eval(input("Guess the number " )))
-if num > n:
-  print('Your guess was too high: Guess a number lower than ', num)
-elif num < n:
-  print('Your guess was too low: Guess a number higher than ', num)
-else:
-  print('YOU WIN!')
-  print('You guessed the number in ' + str(count) + ' tries!')
-  break`
+`num = int(eval(input("Guess the number " )))`                                                                                                                                            
+`if num > n:`                                                                                                                                                                                  
+  `print('Your guess was too high: Guess a number lower than ', num)`                                                                                                                     
+`elif num < n:`                                                                                                                                                                             
+  `print('Your guess was too low: Guess a number higher than ', num)`                                                                                                                              
+`else:`                                                                                                                                                                                          
+  `print('YOU WIN!')`                                                                                                                                                                              
+  `print('You guessed the number in ' + str(count) + ' tries!')`                                                                                                                            
+  `break`                                                                                                                                                                                      
   
-We ask the user to guess the number. And store guessed number in num variable. Then we do comparisons with the generated number n.
-In the first condition, if the guessed number is higher then the actual number than prints Your guess was too high: Guess a number lower than (your number). So, the user can get the idea, and next time he/she enters a lower number.
+* We ask the user to guess the number. And store guessed number in num variable. Then we do comparisons with the generated number n.
+  
+*In the first condition, if the guessed number is higher then the actual number than prints Your guess was too high: Guess a number lower than (your number). So, the user can get the idea, and next time he/she enters a lower number.*
 
-If the first condition is false, then flow goes for check second condition, if the guessed number is lower than actual number then prints Your guess was too low: Guess a number higher than (your number). So, the user can get the idea, and next time he/she enters a higher number.
+* If the first condition is false, then flow goes for check second condition, if the guessed number is lower than actual number then prints `Your guess was too low: Guess a number higher than (your number)`. So, the user can get the idea, and next time he/she enters a higher number.
 
-If above both condition returns false. Then the user guessed number is matched with the actual number and the loop will be terminated by a break statement. Code also prints YOU WIN! message and number of guesses taken by the user that counted by count variable.
+* If above both condition returns false. Then the user guessed number is matched with the actual number and the loop will be terminated by a break statement. Code also prints `YOU WIN!` message and number of guesses taken by the user that counted by count variable.
 
-With this above all condition, code also prints the number of guesses left for the user, and the count variable increases by one in every iteration to print a number of guesses taken by the user once the user wins the game.
+*With this above all condition, code also prints the number of guesses left for the user, and the count variable increases by one in every iteration to print a number of guesses taken by the user once the user wins the game.*
 
-guess_chances -= 1
-  print(guess_chances, 'Guesses Left')
-  count += 1
-So, the above all conditions are written in a while loop. while loop gets terminated once the user wins the game or no. of guesses reaches the limit.
+`guess_chances -= 1`                                                                                                                                                  
+  `print(guess_chances, 'Guesses Left')`                                                                                                                                       
+  `count += 1`
+  
+*So, the above all conditions are written in a while loop. while loop gets terminated once the user wins the game or no. of guesses reaches the limit.*
 
 while 1 <= guess_chances:
+
 Outside of the loop, code will print the Game Over message with the actual number.
 
 print("GAME OVER")
